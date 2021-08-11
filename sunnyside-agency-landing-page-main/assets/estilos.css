@@ -313,20 +313,121 @@ span img{
 
 
 
+.clientes-tes{
+text-align: center;
+text-transform: uppercase;
+font-family:'Fraunces',sans-serif ;
+color: var(--Dark-grayish-blue);
+
+font-size: 20px;
+padding-top: 50px;
+padding-bottom: 50px;
+letter-spacing: 8px;
+}
+
+.content-testimonios{
+    background: white;
+    
+}
+
 
 .car{
     width:350px;
     height: 400px; 
-    background: chocolate;
+    background: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+
+
+
 }
+
+.car img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    
+}
+.car p{
+    text-align: center;
+    font-size: 17px ;
+    font-family: 'Barlow',sans-serif;
+    font-weight:600;
+    line-height: 25px;
+    color: var(--Dark-moderate-cyan);
+
+
+
+}
+.con-nombre{
+    margin-top: 40px;
+  
+}
+.con-nombre .nombre{
+    font-weight: bold;
+    font-family: "Fraunces",sans-serif;
+    color: #000;
+
+}
+
+.con-nombre .puesto{
+    font-size: 12px;
+}
+
 .con-cart{
     grid-column: 1/-1;
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
 }
 section{
-    margin-top: 50px;
+    margin-top: 0px;
+}
+
+
+
+.layout-product-image{
+   
+    
+    max-width: 1440px;
+    margin: auto;
+}
+
+.cont-product{
+   
+    width: 100%;
+  
+    display: flex;
+}
+
+.produt{
+    width: 25%;
+    
+   
+}
+.produt img{
+    width: 100%;
+}
+footer{
+    background: var(--Dark-moderate-cyan);
+}
+.menu-footer{
+    margin: 50px;
+    background: red;
+    grid-column: 4/10;
+    text-align: center;
+}
+
+.menu-f a{
+    color: var(--Dark-moderate-cyan);
+
+    font-size:1.2em;
+ 
 }
